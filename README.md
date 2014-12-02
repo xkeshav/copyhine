@@ -10,7 +10,7 @@ Usage
  - Click to icon and then right click on icon and click on `inspect popup`  and you can see all content of that page in once
 
 
-[Example URL][http://www.pratilipi.com/read/story/4879888423059456]
+[Example URL](http://www.pratilipi.com/read/story/4879888423059456)
 
 I have also added the number with `console.log` in order to see how it executed one by one
 
