@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "chori",
+  "description": "cophyin",
+  "version": "1.0",
+  "icons": {
+    "24": "foto/icon_24.png",
+    "32": "foto/icon_32.png",
+    "48": "foto/icon_48.png"
+  },
+  "browser_action": {
+    "default_icon": "foto/icon_32.png",
+    "default_popup": "popup.html",
+    "default_title": "chori karo"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["js/jquery.min.js", "js/script.js"]
+  }]
+}
